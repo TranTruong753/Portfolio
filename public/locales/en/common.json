@@ -1,0 +1,99 @@
+{
+  "meta":{
+    "title": "Portfolio"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hello, I'm",
+    "name": "Tran Quang Truong",
+    "description": "Final-year Software Engineering student at Saigon University, passionate about Frontend development and creating modern web applications.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Software Engineering Student",
+    "description1": "I am a final-year Software Engineering student at Saigon University with a special passion for Frontend development. I focus on creating responsive web applications, optimizing performance, and delivering the best user experience.",
+    "description2": "With solid knowledge of JavaScript/TypeScript and modern frameworks like React and Vue.js, I am always looking for opportunities to learn and develop professional skills.",
+    "educationTitle": "Education",
+    "university": "Saigon University",
+    "degree": "Bachelor of Software Engineering",
+    "gpa": "Current GPA:",
+    "languages": "Languages",
+    "time": "Sep 2021 - Expected Nov 2025"
+  },
+  "skills": {
+    "title": "Skills",
+    "programming": "Programming Languages",
+    "databases": "Databases",
+    "tools": "Tools & Systems",
+    "frameworks": "Frameworks",
+    "libraries": "Libraries"
+  },
+  "experience": {
+    "title": "Experience",
+    "internTitle": "Front-End Intern",
+    "internCompany": "VNA International Technology Joint Stock Company (VNA GROUP)",
+    "internDuration": "May 2025 - July 2025",
+    "internResponsibilities": [
+      "Contributed to the development of 'Occupational Safety and Hygiene Management Software' for businesses and authorities",
+      "Built responsive user interfaces using Next.js, TypeScript, React Hook Form, and Material UI",
+      "Implemented features: login, password recovery, enterprise/user management, report configuration, and statistical dashboards",
+      "Developed reporting modules for businesses to submit occupational safety reports",
+      "Worked in a Scrum team, participated in sprint planning, and used GitLab for version control"
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "spotify": {
+      "title": "Spotify Clone (Frontend)",
+      "description": "Spotify-inspired music platform with real-time chat and streaming features",
+      "github": "GitHub",
+      "demo": "Live Demo"
+    },
+    "taskManager": {
+      "title": "Department Task Manager (Frontend)",
+      "description": "Real-time departmental task manager with task boards and role-based views",
+      "github": "GitHub"
+    },
+    "jobPortal": {
+      "title": "Job Portal (Frontend)",
+      "description": "Job recruitment platform with job browsing, filters, and application forms",
+      "github": "GitHub"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you for your message! I will respond as soon as possible.",
+      "errorMessage": "Sorry, something went wrong. Please try again later."
+
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Tran Quang Truong. All rights reserved.",
+    "description": "Final-year Software Engineering student at Saigon University, passionate about Frontend development and creating modern web applications.",
+    "links": "Links",
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  }
+}

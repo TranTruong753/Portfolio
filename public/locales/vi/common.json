@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Portfolio"
+  },
+  "header": {
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "skills": "Kỹ Năng",
+    "experience": "Kinh Nghiệm",
+    "projects": "Dự Án",
+    "contact": "Liên Hệ"
+  },
+  "hero": {
+    "title": "Xin chào, tôi là",
+    "name": "Trần Quang Trường",
+    "description": "Sinh viên năm cuối ngành Kỹ thuật Phần mềm tại Đại học Sài Gòn, với niềm đam mê phát triển Frontend và tạo ra các ứng dụng web hiện đại.",
+    "viewProjects": "Xem Dự Án",
+    "contactMe": "Liên Hệ Tôi"
+  },
+  "about": {
+    "title": "Giới Thiệu",
+    "subtitle": "Sinh viên Kỹ thuật Phần mềm",
+    "description1": "Tôi là sinh viên năm cuối ngành Kỹ thuật Phần mềm tại Đại học Sài Gòn, với niềm đam mê đặc biệt dành cho phát triển Frontend. Tôi tập trung vào việc tạo ra các ứng dụng web responsive, tối ưu hiệu suất và mang lại trải nghiệm người dùng tốt nhất.",
+    "description2": "Với kiến thức vững chắc về JavaScript/TypeScript và các framework hiện đại như React và Vue.js, tôi luôn tìm kiếm cơ hội để học hỏi và phát triển kỹ năng chuyên môn.",
+    "educationTitle": "Học Vấn",
+    "university": "Đại học Sài Gòn",
+    "degree": "Cử nhân Kỹ thuật Phần mềm",
+    "gpa": "Điểm trung bình hiện tại:",
+    "languages": "Ngôn Ngữ",
+    "time": "Tháng 9/2021 - Dự kiến Tháng 11/2025"
+  },
+  "skills": {
+    "title": "Kỹ Năng",
+    "programming": "Ngôn Ngữ Lập Trình",
+    "databases": "Cơ Sở Dữ Liệu",
+    "tools": "Công Cụ & Hệ Thống",
+    "frameworks": "Frameworks",
+    "libraries": "Libraries"
+  },
+  "experience": {
+    "title": "Kinh Nghiệm",
+    "internTitle": "Thực Tập Sinh Front-End",
+    "internCompany": "Công ty Cổ phần Công nghệ Quốc tế VNA (VNA GROUP)",
+    "internDuration": "Tháng 5/2025 - Tháng 7/2025",
+    "internResponsibilities": [
+      "Tham gia phát triển 'Phần mềm Quản lý An toàn Vệ sinh Lao động' cho doanh nghiệp và cơ quan chức năng",
+      "Xây dựng giao diện người dùng responsive sử dụng Next.js, TypeScript, React Hook Form và Material UI",
+      "Triển khai các tính năng: đăng nhập, khôi phục mật khẩu, quản lý doanh nghiệp, quản lý người dùng, cấu hình báo cáo và bảng thống kê",
+      "Phát triển mô-đun báo cáo cho doanh nghiệp gửi báo cáo an toàn lao động",
+      "Làm việc trong nhóm Scrum, tham gia lập kế hoạch sprint và sử dụng GitLab để quản lý phiên bản"
+    ]
+  },
+  "projects": {
+    "title": "Dự Án",
+    "spotify": {
+      "title": "Spotify Clone (Frontend)",
+      "description": "Nền tảng âm nhạc lấy cảm hứng từ Spotify với tính năng chat và phát nhạc thời gian thực",
+      "github": "GitHub",
+      "demo": "Live Demo"
+    },
+    "taskManager": {
+      "title": "Department Task Manager (Frontend)",
+      "description": "Trình quản lý công việc phòng ban thời gian thực với bảng công việc và chế độ xem theo vai trò",
+      "github": "GitHub"
+    },
+    "jobPortal": {
+      "title": "Job Portal (Frontend)",
+      "description": "Nền tảng tuyển dụng với tính năng duyệt việc làm, bộ lọc và biểu mẫu ứng tuyển",
+      "github": "GitHub"
+    }
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "phone": "Điện Thoại",
+    "email": "Email",
+    "form": {
+      "name": "Họ và Tên",
+      "email": "Email",
+      "subject": "Chủ Đề",
+      "message": "Nội Dung",
+      "send": "Gửi Tin Nhắn",
+      "sending": "Đang gửi...",
+      "successMessage": "Cảm ơn bạn đã liên hệ! Tôi sẽ phản hồi sớm nhất có thể.",
+      "errorMessage": "Đã xảy ra lỗi khi gửi tin nhắn. Vui lòng thử lại sau."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Trần Quang Trường",
+    "description": "Sinh viên năm cuối ngành Kỹ thuật Phần mềm tại Đại học Sài Gòn, với niềm đam mê phát triển Frontend và tạo ra các ứng dụng web hiện đại, hiệu quả.",
+    "links": "Liên Kết",
+    "home": "Trang Chủ",
+    "about": "Giới Thiệu",
+    "skills": "Kỹ Năng",
+    "experience": "Kinh Nghiệm",
+    "projects": "Dự Án",
+    "contact": "Liên Hệ"
+  }
+}
