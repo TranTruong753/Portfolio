@@ -74,7 +74,7 @@ const Hero = () => {
                 </div>
               </div>
               <div className="font-semibold absolute -bottom-4 -left-4 bg-blue-600 text-white px-6 py-2 rounded-full transform -rotate-6 shadow-lg">
-                Developer
+                Software Engineering
               </div>
             </div>
           </div>
