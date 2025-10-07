@@ -14,8 +14,7 @@ const Projects = () => {
       urlImg: '/img/project-sportify.jpg',
       description: t('projects.spotify.description'),
       tags: ['TypeScript', 'React', 'Redux', 'Shadcn UI', 'Vercel'],
-      github: 'https://github.com/TranTruong753/Spotify_Project_Frontend',
-      demo: 'https://spotify-project-frontend.vercel.app/'
+      github: 'https://github.com/TranTruong753/Spotify_Project_Frontend'
     },
     {
       id: 'taskManager',
@@ -91,7 +90,7 @@ const Projects = () => {
                   >
                     <i className="fab fa-github"></i> {t('projects.github')}
                   </a>
-                  {project.demo && (
+                  {/* {project.demo && (
                     <a
                       href={project.demo}
                       target="_blank"
@@ -101,7 +100,7 @@ const Projects = () => {
                     >
                       <i className="fas fa-external-link-alt"></i> {t('projects.demo')}
                     </a>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
 {
-  "meta":{
+  "meta": {
     "title": "Portfolio"
   },
   "header": {
@@ -13,21 +13,21 @@
   "hero": {
     "title": "Hello, I'm",
     "name": "Tran Quang Truong",
-    "description": "Final-year Software Engineering student at Saigon University, passionate about Frontend development and creating modern web applications.",
+    "description": "A recent Software Engineering graduate from Saigon University with a strong passion for Fullstack development and building modern web applications.",
     "viewProjects": "View Projects",
     "contactMe": "Contact Me"
   },
   "about": {
     "title": "About Me",
     "subtitle": "Software Engineering Student",
-    "description1": "I am a final-year Software Engineering student at Saigon University with a special passion for Frontend development. I focus on creating responsive web applications, optimizing performance, and delivering the best user experience.",
-    "description2": "With solid knowledge of JavaScript/TypeScript and modern frameworks like React and Vue.js, I am always looking for opportunities to learn and develop professional skills.",
+    "description1": "I am a recent Software Engineering graduate from Saigon University with a strong passion for Fullstack development. I focus on building responsive, high-performance web applications that deliver the best user experience.",
+    "description2": "With knowledge of JavaScript/TypeScript and modern frameworks such as Next.js and NestJS, I am proactive in learning and constantly improving my professional skills.",
     "educationTitle": "Education",
     "university": "Saigon University",
-    "degree": "Bachelor of Software Engineering",
-    "gpa": "Current GPA:",
+    "degree": "Software Engineer",
+    "gpa": "GPA:",
     "languages": "Languages",
-    "time": "Sep 2021 - Expected Nov 2025"
+    "time": "Sep 2021 - Oct 2025"
   },
   "skills": {
     "title": "Skills",
@@ -40,7 +40,7 @@
   "experience": {
     "title": "Experience",
     "internTitle": "Front-End Intern",
-    "internCompany": "VNA International Technology Joint Stock Company (VNA GROUP)",
+    "internCompany": "VNA GROUP",
     "internDuration": "May 2025 - July 2025",
     "internResponsibilities": [
       "Contributed to the development of 'Occupational Safety and Hygiene Management Software' for businesses and authorities",
@@ -82,7 +82,6 @@
       "sending": "Sending...",
       "successMessage": "Thank you for your message! I will respond as soon as possible.",
       "errorMessage": "Sorry, something went wrong. Please try again later."
-
     }
   },
   "footer": {

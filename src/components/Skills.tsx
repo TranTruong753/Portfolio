@@ -7,11 +7,11 @@ const Skills = () => {
   const { t } = useTranslation('common');
 
   const skills = {
-    programming: ['JavaScript/TypeScript', 'Python', 'HTML/CSS', 'SQL'],
-    databases: ['SQL Server', 'PostgreSQL', 'MySQL'],
-    tools: ['Git/GitHub', 'VS Code', 'Vercel', 'Scrum'],
-    frameworks: ['React', 'Vue.js', 'Next.js', 'Django'],
-    libraries: ['Redux', 'Ant Design', 'Tailwind CSS', 'Shadcn UI', 'Material UI', 'React Hook Form']
+    programming: ['JavaScript/TypeScript', 'HTML/CSS', 'SQL'],
+    databases: ['SQL Server', 'PostgreSQL', 'MySQL', 'MongoDB'],
+    tools: ['Git/GitHub', 'VS Code', 'Vercel', 'Figma', 'Postman'],
+    frameworks: ['Next.js', 'NestJS'],
+    libraries: ['React','Redux', 'Ant Design', 'Tailwind CSS', 'Shadcn UI', 'Material UI', 'React Hook Form']
   };
 
   return (

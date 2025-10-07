@@ -39,7 +39,7 @@ const About = () => {
               <h5 className={`text-xl font-medium mb-2 ${isDarkMode ? 'text-gray-200' : 'text-gray-900'}`}>{t('about.university')}</h5>
               <p className={`text-md font-medium ${isDarkMode ? 'text-gray-200' : 'text-gray-700'}`}>{t('about.degree')}</p>
               <p className={`text-md font-medium ${isDarkMode ? 'text-gray-200' : 'text-gray-700'}`}>
-                {t('about.gpa')} <span className="font-bold">3.35/4.0</span>
+                {t('about.gpa')} <span className="font-bold">3.38/4.0</span>
               </p>
               <p className={`text-md font-medium ${isDarkMode ? 'text-gray-200' : 'text-gray-700'}`}>{t('about.time')}</p>
               <div className="my-6 border-t border-blue-200 dark:border-blue-600"></div>
