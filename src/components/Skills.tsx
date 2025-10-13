@@ -9,8 +9,8 @@ const Skills = () => {
   const skills = {
     programming: ['JavaScript/TypeScript', 'HTML/CSS', 'SQL'],
     databases: ['SQL Server', 'PostgreSQL', 'MySQL', 'MongoDB'],
-    tools: ['Git/GitHub', 'VS Code', 'Vercel', 'Figma', 'Postman'],
-    frameworks: ['Next.js', 'NestJS'],
+    tools: ['Git/GitHub', 'VS Code', 'Vercel', 'Figma', 'Postman', 'Docker'],
+    frameworks: ['Next.js', 'NestJS', 'Express'],
     libraries: ['React','Redux', 'Ant Design', 'Tailwind CSS', 'Shadcn UI', 'Material UI', 'React Hook Form']
   };
 

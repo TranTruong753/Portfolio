@@ -52,6 +52,8 @@
   },
   "projects": {
     "title": "Projects",
+    "github": "GitHub",
+    "demo": "Live Demo",
     "spotify": {
       "title": "Spotify Clone (Frontend)",
       "description": "Spotify-inspired music platform with real-time chat and streaming features",
@@ -67,6 +69,12 @@
       "title": "Job Portal (Frontend)",
       "description": "Job recruitment platform with job browsing, filters, and application forms",
       "github": "GitHub"
+    },
+    "expenseTracker": {
+      "title": "Expense Tracker (FullStack)",
+      "description": "Full-stack web app to manage income, expenses, and daily transaction statements, with secure authentication and responsive UI.",
+      "github": "GitHub",
+      "demo": "Live Demo"
     }
   },
   "contact": {

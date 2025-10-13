@@ -21,16 +21,17 @@ const Projects = () => {
       title: t('projects.taskManager.title'),
       urlImg: '/img/project-manager-work.jpg',
       description: t('projects.taskManager.description'),
-      tags: ['React', 'JavaScript', 'Tailwind', 'Ant Design', 'Vercel'],
+      tags: ['JavaScript', 'React', 'Tailwind', 'Ant Design', 'Vercel'],
       github: 'https://github.com/TranTruong753/ProjectManagement-Frontend'
     },
     {
-      id: 'jobPortal',
-      title: t('projects.jobPortal.title'),
-      urlImg: '/img/project-jobs.jpg',
-      description: t('projects.jobPortal.description'),
-      tags: ['Vue.js', 'Pinia', 'JavaScript', '.NET API'],
-      github: 'https://github.com/TranTruong753/Job-Portal/'
+      id: 'expenseTracker',
+      title: t('projects.expenseTracker.title'),
+      urlImg: '/img/project-expense-tracker.png',
+      description: t('projects.expenseTracker.description'),
+      tags: ['TypeScript', 'React', 'Material', 'Node js', 'Express'],
+      github: 'https://github.com/TranTruong753/Job-Portal/',
+      demo: 'http://expense-tracker.truong-dev.site'
     }
   ];
 
@@ -88,9 +89,9 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className={`inline-flex items-center gap-2 px-4 py-2  text-white rounded hover:bg-gray-700 transition ${isDarkMode ? 'bg-gray-900' : 'bg-gray-800'}`}
                   >
-                    <i className="fab fa-github"></i> {t('projects.github')}
+                    <i className="fab fa-github"></i> {t(`projects.github`)}
                   </a>
-                  {/* {project.demo && (
+                  {project.demo && (
                     <a
                       href={project.demo}
                       target="_blank"
@@ -100,7 +101,7 @@ const Projects = () => {
                     >
                       <i className="fas fa-external-link-alt"></i> {t('projects.demo')}
                     </a>
-                  )} */}
+                  )}
                 </div>
               </div>
             </div>

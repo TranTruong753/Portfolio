@@ -52,6 +52,8 @@
   },
   "projects": {
     "title": "Dự Án",
+    "github": "GitHub",
+    "demo": "Live Demo",
     "spotify": {
       "title": "Spotify Clone (Frontend)",
       "description": "Nền tảng âm nhạc lấy cảm hứng từ Spotify với tính năng chat và phát nhạc thời gian thực",
@@ -67,6 +69,12 @@
       "title": "Job Portal (Frontend)",
       "description": "Nền tảng tuyển dụng với tính năng duyệt việc làm, bộ lọc và biểu mẫu ứng tuyển",
       "github": "GitHub"
+    },
+    "expenseTracker": {
+      "title": "Expense Tracker (FullStack)",
+      "description": "Ứng dụng web quản lý thu chi toàn diện, giúp theo dõi thu nhập, chi tiêu và báo cáo giao dịch hàng ngày, với đăng nhập bảo mật và giao diện responsive.",
+      "github": "GitHub",
+      "demo": "Live Demo"
     }
   },
   "contact": {
