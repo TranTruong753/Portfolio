@@ -1,106 +1,154 @@
 {
   "meta": {
-    "title": "Portfolio"
+    "title": "Trần Quang Trường | Software Engineer",
+    "description": "Portfolio của Trần Quang Trường, Software Engineer: backend Go và PostgreSQL, frontend Angular/React."
   },
   "header": {
-    "home": "Trang Chủ",
-    "about": "Giới Thiệu",
-    "skills": "Kỹ Năng",
-    "experience": "Kinh Nghiệm",
-    "projects": "Dự Án",
-    "contact": "Liên Hệ"
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "experience": "Kinh nghiệm",
+    "contact": "Liên hệ",
+    "toggleTheme": "Đổi giao diện sáng/tối",
+    "openMenu": "Mở menu"
   },
   "hero": {
+    "eyebrow": "Software Engineer · TP. Hồ Chí Minh",
     "title": "Xin chào, tôi là",
     "name": "Trần Quang Trường",
-    "description": "Sinh viên mới tốt nghiệp ngành Kỹ thuật Phần mềm tại Đại học Sài Gòn, với niềm đam mê phát triển Fullstack và tạo ra các ứng dụng web hiện đại.",
-    "viewProjects": "Xem Dự Án",
-    "contactMe": "Liên Hệ Tôi"
-  },
-  "about": {
-    "title": "Giới Thiệu",
-    "subtitle": "Sinh viên Kỹ thuật Phần mềm",
-    "description1": "Tôi là sinh viên mới tốt nghiệp ngành Kỹ thuật Phần mềm tại Đại học Sài Gòn, với niềm đam mê đặc biệt dành cho phát triển Fullstack. Tôi tập trung vào việc tạo ra các ứng dụng web responsive, tối ưu hiệu suất và mang lại trải nghiệm người dùng tốt nhất.",
-    "description2": "Với kiến thức về JavaScript/TypeScript và các framework hiện đại như Next.js và NestJS, tôi luôn chủ động học hỏi và không ngừng nâng cao kỹ năng chuyên môn của mình..",
-    "educationTitle": "Học Vấn",
-    "university": "Đại học Sài Gòn",
-    "degree": "kỹ sư phần mềm ",
-    "gpa": "Điểm trung bình:",
-    "languages": "Ngôn Ngữ",
-    "time": "Tháng 9/2021 - 10/2025"
-  },
-  "skills": {
-    "title": "Kỹ Năng",
-    "programming": "Ngôn Ngữ Lập Trình",
-    "databases": "Cơ Sở Dữ Liệu",
-    "tools": "Công Cụ & Hệ Thống",
-    "frameworks": "Frameworks",
-    "libraries": "Libraries"
-  },
-  "experience": {
-    "title": "Kinh Nghiệm",
-    "internTitle": "Thực Tập Sinh Front-End",
-    "internCompany": "Công ty Cổ phần Công nghệ Quốc tế VNA",
-    "internDuration": "Tháng 5/2025 - Tháng 7/2025",
-    "internResponsibilities": [
-      "Tham gia phát triển 'Phần mềm Quản lý An toàn Vệ sinh Lao động' cho doanh nghiệp và cơ quan chức năng",
-      "Xây dựng giao diện người dùng responsive sử dụng Next.js, TypeScript, React Hook Form và Material UI",
-      "Triển khai các tính năng: đăng nhập, khôi phục mật khẩu, quản lý doanh nghiệp, quản lý người dùng, cấu hình báo cáo và bảng thống kê",
-      "Phát triển mô-đun báo cáo cho doanh nghiệp gửi báo cáo an toàn lao động",
-      "Làm việc trong nhóm Scrum, tham gia lập kế hoạch sprint và sử dụng GitLab để quản lý phiên bản"
-    ]
-  },
-  "projects": {
-    "title": "Dự Án",
-    "github": "GitHub",
-    "demo": "Live Demo",
-    "spotify": {
-      "title": "Spotify Clone (Frontend)",
-      "description": "Nền tảng âm nhạc lấy cảm hứng từ Spotify với tính năng chat và phát nhạc thời gian thực",
-      "github": "GitHub",
-      "demo": "Live Demo"
-    },
-    "taskManager": {
-      "title": "Department Task Manager (Frontend)",
-      "description": "Trình quản lý công việc phòng ban thời gian thực với bảng công việc và chế độ xem theo vai trò",
-      "github": "GitHub"
-    },
-    "jobPortal": {
-      "title": "Job Portal (Frontend)",
-      "description": "Nền tảng tuyển dụng với tính năng duyệt việc làm, bộ lọc và biểu mẫu ứng tuyển",
-      "github": "GitHub"
-    },
-    "expenseTracker": {
-      "title": "Expense Tracker (FullStack)",
-      "description": "Ứng dụng web quản lý thu chi toàn diện, giúp theo dõi thu nhập, chi tiêu và báo cáo giao dịch hàng ngày, với đăng nhập bảo mật và giao diện responsive.",
-      "github": "GitHub",
-      "demo": "Live Demo"
+    "role": "Software Engineer",
+    "description": "Kỹ sư phần mềm backend và frontend. Hiện cùng team phát triển nền tảng quản lý logistics & kho cho khách hàng Nhật Bản bằng Go và PostgreSQL.",
+    "viewExperience": "Xem kinh nghiệm",
+    "contactMe": "Liên hệ",
+    "label": {
+      "title": "Nhãn vận chuyển",
+      "from": "Từ",
+      "fromValue": "ĐH Sài Gòn · 2025",
+      "to": "Đến",
+      "toValue": "Go · PostgreSQL",
+      "stack": "Stack",
+      "status": "Trạng thái",
+      "statusValue": "Đang làm tại AIPower"
     }
   },
+  "about": {
+    "title": "Giới thiệu",
+    "subtitle": "Software Engineer",
+    "description1": "Tôi có kinh nghiệm phát triển cả backend (Go, PostgreSQL) lẫn frontend (React, Angular). Hiện tại ở AIPower, tôi cùng team xây dựng nền tảng quản lý logistics & kho cho một công ty Nhật Bản và phụ trách ba module, tham gia từ thiết kế, trao đổi với khách hàng, lập trình đến kiểm thử.",
+    "description2": "Tôi cũng có kinh nghiệm phát triển frontend bằng Angular/TypeScript cho các sản phẩm phần mềm ngành F&B tại F2Tech, làm việc theo Agile/Scrum.",
+    "educationTitle": "Học vấn",
+    "university": "Đại học Sài Gòn",
+    "degree": "Kỹ thuật phần mềm",
+    "gpa": "GPA",
+    "languages": "Ngôn ngữ",
+    "location": "Nơi ở",
+    "locationValue": "TP. Hồ Chí Minh, Việt Nam",
+    "vietnamese": "Tiếng Việt (bản ngữ)",
+    "english": "Tiếng Anh (Aptis General B2)",
+    "time": "09/2021 - 10/2025"
+  },
+  "skills": {
+    "title": "Kỹ năng",
+    "groups": {
+      "backend": {
+        "name": "Backend",
+        "items": ["Go", "SQL", "RESTful API", "Amazon SP-API", "API hãng vận chuyển"]
+      },
+      "frontend": {
+        "name": "Frontend",
+        "items": ["TypeScript/JavaScript", "React", "Angular", "RxJS", "Syncfusion", "HTML/CSS"]
+      },
+      "databases": {
+        "name": "Cơ sở dữ liệu",
+        "items": ["PostgreSQL", "MongoDB"]
+      },
+      "tools": {
+        "name": "Công cụ",
+        "items": ["Git", "GitHub", "GitLab", "Postman", "Bruno"]
+      },
+      "ai": {
+        "name": "AI hỗ trợ code & test",
+        "items": ["Claude", "Codex", "Gemini", "MiniMax"]
+      },
+      "process": {
+        "name": "Quy trình",
+        "items": ["Agile/Scrum", "Code review", "Unit test", "User-journey test", "Kiểm thử thủ công", "Debug API"]
+      }
+    }
+  },
+  "experience": {
+    "title": "Kinh nghiệm",
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "company": "AIPower",
+        "duration": "04/2026 - nay",
+        "location": "TP. Hồ Chí Minh",
+        "summary": "Cùng team phát triển nền tảng quản lý logistics & kho cho một công ty logistics Nhật Bản. Phụ trách ba module chính, tham gia từ thiết kế, trao đổi với khách hàng, lập trình đến kiểm thử.",
+        "stack": ["Go", "PostgreSQL", "React", "TypeScript", "Amazon SP-API"],
+        "items": [
+          {
+            "label": "Kiểm kê kho",
+            "text": "Phiên kiểm kê theo snapshot, nhập CSV, đối chiếu chênh lệch, xuất CSV/PDF, tự động điều chỉnh tồn kho, audit log."
+          },
+          {
+            "label": "Vận chuyển Amazon",
+            "text": "Tích hợp Amazon SP-API: nhập đơn, lấy báo giá, mua và in nhãn vận chuyển."
+          },
+          {
+            "label": "Hãng vận chuyển Nhật",
+            "text": "Phát hành nhãn, chứng từ bàn giao, xử lý lỗi từ hãng. Được khách hàng nghiệm thu."
+          },
+          {
+            "label": "Vận hành",
+            "text": "Xử lý ticket hằng ngày, kiểm tra dữ liệu bằng SQL, code review, triển khai staging."
+          }
+        ],
+        "note": "Cả ba module đều có unit test và user-journey test. Dùng AI (Claude, Codex, Gemini, MiniMax) hỗ trợ viết code và test."
+      },
+      {
+        "title": "Front-End Developer",
+        "company": "F2Tech",
+        "duration": "11/2025 - 03/2026",
+        "location": "TP. Hồ Chí Minh",
+        "summary": "Phát triển tính năng cho bốn sản phẩm phần mềm ngành F&B, từ thiết kế Figma và REST API.",
+        "stack": ["Angular", "TypeScript", "RxJS", "Syncfusion"],
+        "items": [
+          {
+            "label": "Quick BI Report",
+            "text": "Thêm biểu đồ báo cáo với Syncfusion; tối ưu RxJS, giảm thời gian tải trang khoảng 20%."
+          },
+          {
+            "label": "Quick Booking",
+            "text": "Landing page đặt bàn cho nhiều thương hiệu từ một codebase; theo dõi UTM, Google Analytics."
+          },
+          {
+            "label": "E-menu & Catalog",
+            "text": "Nâng cấp giao diện và luồng xem menu điện tử."
+          }
+        ],
+        "note": "Làm việc theo Agile/Scrum, có code review."
+      }
+    ]
+  },
   "contact": {
-    "title": "Liên Hệ",
-    "phone": "Điện Thoại",
+    "title": "Liên hệ",
+    "subtitle": "Cần trao đổi về công việc? Gửi tin nhắn hoặc email, tôi sẽ trả lời sớm.",
+    "phone": "Điện thoại",
     "email": "Email",
     "form": {
-      "name": "Họ và Tên",
+      "name": "Họ và tên",
       "email": "Email",
-      "subject": "Chủ Đề",
-      "message": "Nội Dung",
-      "send": "Gửi Tin Nhắn",
+      "subject": "Chủ đề",
+      "message": "Nội dung",
+      "send": "Gửi tin nhắn",
       "sending": "Đang gửi...",
-      "successMessage": "Cảm ơn bạn đã liên hệ! Tôi sẽ phản hồi sớm nhất có thể.",
-      "errorMessage": "Đã xảy ra lỗi khi gửi tin nhắn. Vui lòng thử lại sau."
+      "successMessage": "Đã gửi. Cảm ơn bạn, tôi sẽ phản hồi sớm nhất có thể.",
+      "errorMessage": "Chưa gửi được tin nhắn. Hãy thử lại, hoặc email trực tiếp cho tôi."
     }
   },
   "footer": {
-    "copyright": "© 2025 Trần Quang Trường",
-    "description": "Sinh viên năm cuối ngành Kỹ thuật Phần mềm tại Đại học Sài Gòn, với niềm đam mê phát triển Frontend và tạo ra các ứng dụng web hiện đại, hiệu quả.",
-    "links": "Liên Kết",
-    "home": "Trang Chủ",
-    "about": "Giới Thiệu",
-    "skills": "Kỹ Năng",
-    "experience": "Kinh Nghiệm",
-    "projects": "Dự Án",
-    "contact": "Liên Hệ"
+    "copyright": "© 2026 Trần Quang Trường",
+    "backToTop": "Lên đầu trang"
   }
 }

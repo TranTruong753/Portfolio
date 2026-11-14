@@ -13,18 +13,17 @@ interface ThemeProviderProps {
 
 export const ThemeProvider = ({ children }: ThemeProviderProps): React.JSX.Element => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+  const [isInitialized, setIsInitialized] = useState<boolean>(false);
 
+  // _document already put the right class on <html> before paint; sync React state from it.
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setIsDarkMode(savedTheme === 'dark');
-    } else {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setIsDarkMode(prefersDark);
-    }
+    setIsDarkMode(document.documentElement.classList.contains('dark'));
+    setIsInitialized(true);
   }, []);
 
   useEffect(() => {
+    // Skip the first render so the default "light" state does not wipe the saved theme.
+    if (!isInitialized) return;
     if (isDarkMode) {
       document.documentElement.classList.add('dark');
       localStorage.setItem('theme', 'dark');
@@ -32,7 +31,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps): React.JSX.Eleme
       document.documentElement.classList.remove('dark');
       localStorage.setItem('theme', 'light');
     }
-  }, [isDarkMode]);
+  }, [isDarkMode, isInitialized]);
 
   const toggleTheme = (): void => {
     setIsDarkMode(!isDarkMode);

@@ -2,58 +2,124 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .text-balance {
-      text-wrap: balance;
-    }
-  }
-  
+/* Design tokens (RGB triplets so Tailwind can apply opacity). */
+:root {
+  --bg: 245 246 244;
+  --surface: 255 255 255;
+  --ink: 22 24 29;
+  --muted: 91 98 112;
+  --line: 218 221 216;
+  --accent: 0 140 178;
+  --stamp: 232 93 22;
+  color-scheme: light;
+}
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+html.dark {
+  --bg: 14 17 22;
+  --surface: 21 26 33;
+  --ink: 231 234 238;
+  --muted: 139 147 161;
+  --line: 37 44 54;
+  --accent: 60 200 235;
+  --stamp: 255 128 64;
+  color-scheme: dark;
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+  @apply bg-bg text-ink font-sans antialiased;
+  line-height: 1.6;
 }
 
-/* Animation classes */
-.animate-in {
-    animation: fadeIn 0.5s ease-in;
+::selection {
+  background: rgb(var(--accent) / 0.25);
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+@layer components {
+  /* Small monospace label used for eyebrows and metadata. */
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.18em] text-muted;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-md border border-line bg-surface px-2.5 py-1 font-mono text-[13px] text-ink;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold tracking-tight md:text-4xl;
+  }
 }
 
-/* Timeline styling */
-.timeline-item:before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    left: -8px;
-    top: 0;
-    background: #3b82f6;
-    border: 4px solid #fff;
+/* Faint grid that echoes warehouse floor plans; sits behind the hero. */
+.bg-grid {
+  background-image:
+    linear-gradient(rgb(var(--line) / 0.6) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--line) / 0.6) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 70% 40%, black 20%, transparent 70%);
 }
 
-.dark .timeline-item:before {
-    border: 4px solid #1f2937;
+/* Barcode drawn with gradients; widths vary to look like a real code. */
+.barcode {
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgb(var(--ink)) 0 2px,
+    transparent 2px 4px,
+    rgb(var(--ink)) 4px 5px,
+    transparent 5px 8px,
+    rgb(var(--ink)) 8px 11px,
+    transparent 11px 12px,
+    rgb(var(--ink)) 12px 13px,
+    transparent 13px 16px
+  );
 }
 
-/* Smooth transitions */
-.transition {
-    transition: all 0.3s ease;
+/* Load-in reveal, staggered with inline animation-delay. */
+.reveal {
+  animation: reveal 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scanner line sweeping across the barcode on the hero label. */
+.scan-line {
+  animation: scan 3.2s ease-in-out infinite;
+}
+
+@keyframes scan {
+  0%,
+  100% {
+    left: 1rem;
+    opacity: 0;
+  }
+  15%,
+  85% {
+    opacity: 1;
+  }
+  50% {
+    left: calc(100% - 1rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal,
+  .scan-line {
+    animation: none;
+  }
 }

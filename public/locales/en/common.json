@@ -1,106 +1,154 @@
 {
   "meta": {
-    "title": "Portfolio"
+    "title": "Tran Quang Truong | Software Engineer",
+    "description": "Portfolio of Tran Quang Truong, Software Engineer: Go and PostgreSQL backend, Angular/React frontend."
   },
   "header": {
     "home": "Home",
     "about": "About",
     "skills": "Skills",
     "experience": "Experience",
-    "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "toggleTheme": "Toggle light/dark theme",
+    "openMenu": "Open menu"
   },
   "hero": {
+    "eyebrow": "Software Engineer · Ho Chi Minh City",
     "title": "Hello, I'm",
     "name": "Tran Quang Truong",
-    "description": "A recent Software Engineering graduate from Saigon University with a strong passion for Fullstack development and building modern web applications.",
-    "viewProjects": "View Projects",
-    "contactMe": "Contact Me"
+    "role": "Software Engineer",
+    "description": "Backend and frontend software engineer. Currently part of a team building a logistics & warehouse management platform for a Japanese client with Go and PostgreSQL.",
+    "viewExperience": "View experience",
+    "contactMe": "Contact",
+    "label": {
+      "title": "Shipping label",
+      "from": "From",
+      "fromValue": "Saigon University · 2025",
+      "to": "To",
+      "toValue": "Go · PostgreSQL",
+      "stack": "Stack",
+      "status": "Status",
+      "statusValue": "Working at AIPower"
+    }
   },
   "about": {
-    "title": "About Me",
-    "subtitle": "Software Engineering Student",
-    "description1": "I am a recent Software Engineering graduate from Saigon University with a strong passion for Fullstack development. I focus on building responsive, high-performance web applications that deliver the best user experience.",
-    "description2": "With knowledge of JavaScript/TypeScript and modern frameworks such as Next.js and NestJS, I am proactive in learning and constantly improving my professional skills.",
+    "title": "About",
+    "subtitle": "Software Engineer",
+    "description1": "I have experience building both backend (Go, PostgreSQL) and frontend (React, Angular). At AIPower I work in a team on a logistics & warehouse management platform for a Japanese company and own three modules, taking part in design, client communication, coding and testing.",
+    "description2": "I also have experience building Angular/TypeScript frontends for F&B software products at F2Tech, working in Agile/Scrum.",
     "educationTitle": "Education",
     "university": "Saigon University",
-    "degree": "Software Engineer",
-    "gpa": "GPA:",
+    "degree": "Software Engineering",
+    "gpa": "GPA",
     "languages": "Languages",
+    "location": "Location",
+    "locationValue": "Ho Chi Minh City, Vietnam",
+    "vietnamese": "Vietnamese (Native)",
+    "english": "English (Aptis General B2)",
     "time": "Sep 2021 - Oct 2025"
   },
   "skills": {
     "title": "Skills",
-    "programming": "Programming Languages",
-    "databases": "Databases",
-    "tools": "Tools & Systems",
-    "frameworks": "Frameworks",
-    "libraries": "Libraries"
+    "groups": {
+      "backend": {
+        "name": "Backend",
+        "items": ["Go", "SQL", "RESTful API", "Amazon SP-API", "Carrier APIs"]
+      },
+      "frontend": {
+        "name": "Frontend",
+        "items": ["TypeScript/JavaScript", "React", "Angular", "RxJS", "Syncfusion", "HTML/CSS"]
+      },
+      "databases": {
+        "name": "Databases",
+        "items": ["PostgreSQL", "MongoDB"]
+      },
+      "tools": {
+        "name": "Tools",
+        "items": ["Git", "GitHub", "GitLab", "Postman", "Bruno"]
+      },
+      "ai": {
+        "name": "AI for code & tests",
+        "items": ["Claude", "Codex", "Gemini", "MiniMax"]
+      },
+      "process": {
+        "name": "Process",
+        "items": ["Agile/Scrum", "Code review", "Unit tests", "User-journey tests", "Manual testing", "API debugging"]
+      }
+    }
   },
   "experience": {
     "title": "Experience",
-    "internTitle": "Front-End Intern",
-    "internCompany": "VNA GROUP",
-    "internDuration": "May 2025 - July 2025",
-    "internResponsibilities": [
-      "Contributed to the development of 'Occupational Safety and Hygiene Management Software' for businesses and authorities",
-      "Built responsive user interfaces using Next.js, TypeScript, React Hook Form, and Material UI",
-      "Implemented features: login, password recovery, enterprise/user management, report configuration, and statistical dashboards",
-      "Developed reporting modules for businesses to submit occupational safety reports",
-      "Worked in a Scrum team, participated in sprint planning, and used GitLab for version control"
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "company": "AIPower",
+        "duration": "Apr 2026 - Present",
+        "location": "Ho Chi Minh City",
+        "summary": "Team member on a logistics & warehouse management platform for a Japanese logistics company. I own three main modules, taking part in design, client communication, coding and testing.",
+        "stack": ["Go", "PostgreSQL", "React", "TypeScript", "Amazon SP-API"],
+        "items": [
+          {
+            "label": "Stocktaking",
+            "text": "Snapshot-based count sessions, CSV import, discrepancy reconciliation, CSV/PDF export, automatic stock adjustment, audit log."
+          },
+          {
+            "label": "Amazon shipping",
+            "text": "Amazon SP-API integration: import orders, get rates, buy and print shipping labels."
+          },
+          {
+            "label": "Japanese carrier",
+            "text": "Label issuance, handover documents, carrier error handling. Accepted by the client."
+          },
+          {
+            "label": "Operations",
+            "text": "Daily client tickets, data checks in SQL, code review, staging deployments."
+          }
+        ],
+        "note": "All three modules are covered by unit and user-journey tests. I use AI (Claude, Codex, Gemini, MiniMax) to help write code and tests."
+      },
+      {
+        "title": "Front-End Developer",
+        "company": "F2Tech",
+        "duration": "Nov 2025 - Mar 2026",
+        "location": "Ho Chi Minh City",
+        "summary": "Built features for four F&B software products from Figma designs and REST APIs.",
+        "stack": ["Angular", "TypeScript", "RxJS", "Syncfusion"],
+        "items": [
+          {
+            "label": "Quick BI Report",
+            "text": "Added report charts with Syncfusion; RxJS optimizations cut page load time by about 20%."
+          },
+          {
+            "label": "Quick Booking",
+            "text": "Multi-brand table booking landing page from one codebase; UTM tracking, Google Analytics."
+          },
+          {
+            "label": "E-menu & Catalog",
+            "text": "Upgraded the digital menu UI and browsing flow."
+          }
+        ],
+        "note": "Agile/Scrum team with code review."
+      }
     ]
-  },
-  "projects": {
-    "title": "Projects",
-    "github": "GitHub",
-    "demo": "Live Demo",
-    "spotify": {
-      "title": "Spotify Clone (Frontend)",
-      "description": "Spotify-inspired music platform with real-time chat and streaming features",
-      "github": "GitHub",
-      "demo": "Live Demo"
-    },
-    "taskManager": {
-      "title": "Department Task Manager (Frontend)",
-      "description": "Real-time departmental task manager with task boards and role-based views",
-      "github": "GitHub"
-    },
-    "jobPortal": {
-      "title": "Job Portal (Frontend)",
-      "description": "Job recruitment platform with job browsing, filters, and application forms",
-      "github": "GitHub"
-    },
-    "expenseTracker": {
-      "title": "Expense Tracker (FullStack)",
-      "description": "Full-stack web app to manage income, expenses, and daily transaction statements, with secure authentication and responsive UI.",
-      "github": "GitHub",
-      "demo": "Live Demo"
-    }
   },
   "contact": {
     "title": "Contact",
+    "subtitle": "Want to talk about a role? Send a message or an email and I will reply soon.",
     "phone": "Phone",
     "email": "Email",
     "form": {
-      "name": "Full Name",
+      "name": "Full name",
       "email": "Email",
       "subject": "Subject",
       "message": "Message",
-      "send": "Send Message",
+      "send": "Send message",
       "sending": "Sending...",
-      "successMessage": "Thank you for your message! I will respond as soon as possible.",
-      "errorMessage": "Sorry, something went wrong. Please try again later."
+      "successMessage": "Sent. Thanks, I will get back to you as soon as I can.",
+      "errorMessage": "The message did not send. Try again, or email me directly."
     }
   },
   "footer": {
-    "copyright": "© 2025 Tran Quang Truong. All rights reserved.",
-    "description": "Final-year Software Engineering student at Saigon University, passionate about Frontend development and creating modern web applications.",
-    "links": "Links",
-    "home": "Home",
-    "about": "About",
-    "skills": "Skills",
-    "experience": "Experience",
-    "projects": "Projects",
-    "contact": "Contact"
+    "copyright": "© 2026 Tran Quang Truong",
+    "backToTop": "Back to top"
   }
 }

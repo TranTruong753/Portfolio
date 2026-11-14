@@ -7,7 +7,6 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
-import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -20,7 +19,6 @@ export default function Home() {
         <title>{t('meta.title')}</title>
         <meta name="description" content={t('meta.description')} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
@@ -29,7 +27,6 @@ export default function Home() {
         <About />
         <Skills />
         <Experience />
-        <Projects />
         <Contact />
       </main>
       <Footer />

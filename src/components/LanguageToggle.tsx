@@ -1,6 +1,8 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
+const LOCALES = ['vi', 'en'] as const;
+
 const LanguageToggle = () => {
   const router = useRouter();
   const { pathname, asPath, query, locale } = router;
@@ -10,25 +12,19 @@ const LanguageToggle = () => {
   };
 
   return (
-    <div className="flex">
-      <button
-        onClick={() => changeLanguage('vi')}
-        className={`px-3 py-1 rounded-l ${locale === 'vi'
-          ? 'bg-blue-600 text-white'
-          : 'bg-gray-200 dark:bg-gray-200 text-blue-600 '
+    <div className="flex h-9 items-center rounded-md border border-line p-0.5 font-mono text-xs">
+      {LOCALES.map((lng) => (
+        <button
+          key={lng}
+          onClick={() => changeLanguage(lng)}
+          aria-pressed={locale === lng}
+          className={`h-full rounded px-2.5 uppercase transition-colors ${
+            locale === lng ? 'bg-ink text-bg' : 'text-muted hover:text-ink'
           }`}
-      >
-        VI
-      </button>
-      <button
-        onClick={() => changeLanguage('en')}
-        className={`px-3 py-1 rounded-r ${locale === 'en'
-          ? 'bg-blue-600 text-white'
-          : 'bg-gray-200 dark:bg-gray-200 text-blue-600 '
-          }`}
-      >
-        EN
-      </button>
+        >
+          {lng}
+        </button>
+      ))}
     </div>
   );
 };
